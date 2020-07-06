@@ -34,7 +34,7 @@ h2 {
   padding: 10px 16px;
 }
 
-.menu {
+.header .menu {
   margin: 0;
   display: none;
 }
@@ -67,8 +67,10 @@ ul {
 li a {
   display: block;
   margin: 24px;
-  font-family: 'IBM Plex Sans', monospace;
+  font-family: 'IBM Plex Mono', monospace;
   color: #FFFFFF ;
+  line-height: 28px;
+  font-size: 1em;
   text-decoration: none;
 }
 
@@ -316,7 +318,97 @@ h3 {
 }
 
 
+@media (min-width: 1024px) {
 
+  .header {
+    /*cuando le pongo el height queda encima y deja un espacio pequeño entre 
+    el header y el nav*/ 
+    height: 80px;
+    width: 100vw;
+  } 
+
+  .header .logo {
+    float: left;
+    padding: 22px 100px;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .header .menu-icon {
+    display: none;
+  }
+  
+  .header .menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 16vh;  
+  }
+  
+  .header .menu ul {
+    list-style: none;
+    display: flex; 
+  }
+
+  ul {
+    margin-top: 0;
+    background-color: #FFFFFF;
+    list-style-type: none;
+    z-index: 1
+  }
+  
+  li a {
+    display: block;
+    margin: 24px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #060A24; 
+    line-height: 28px;
+    font-size: 1em;
+    text-decoration: none;
+  }
+
+  #home {
+    padding-top: 10vh;
+    padding: 120px 200px 0px;
+  }
+
+  #home p {
+    width: 40vw; 
+  }
+
+  .button {
+    width: 17vw;
+  }
+
+  #episodies h2 {
+    padding: 116px 200px 0px;
+    margin-top: 24px;
+  }
+
+  .frames {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 3vw;
+    padding-bottom: 55vh;
+  }
+  
+  .iframe {
+      width: 584px;
+      height: 232px;
+      border: none;
+      margin-top: 72px;
+  }
+
+  .img {
+    width: 30vw;
+    margin-top: -32vh;
+    position: relative;
+    padding-left: 231px;
+  }
+
+
+}
+  
 
 
 
