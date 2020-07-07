@@ -3,6 +3,7 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 button {
   border: none;
@@ -255,6 +256,13 @@ button:hover {
   margin-top: 4vh;
 }
 
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4vh;
+}
+
 h3 {
   margin-top: 3vh;
   margin-bottom: 24px;
@@ -272,7 +280,6 @@ h3 {
   clip-path: polygon(0 19%, 100% 0, 100% 99%, 0% 100%);
   margin-top: 10vh;
   padding: 16px 16px 70px
- 
 }
 
 
@@ -406,6 +413,35 @@ h3 {
     padding-left: 231px;
   }
 
+  .grid_images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 3vh;
+  }
+
+  .image {
+    width: 33.3vw;
+    height: 243px;
+  }
+
+  #topics h2 {
+    padding: 0px 200px 16px;
+  }
+  
+  
+  .topic_icons {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 4vh;
+  }
+
+  #guests h2 {
+    padding: 0px 200px 16px;
+    
+  }
 
 }
   
