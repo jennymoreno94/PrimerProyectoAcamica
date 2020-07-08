@@ -373,7 +373,7 @@ h3 {
     /*cuando le pongo el height queda encima y deja un espacio pequeño entre 
     el heade8r y el nav*/ 
     height: 80px;
-   width: 100vw;
+    width: 100vw;
    border: #000000 1px solid;
   } 
 
