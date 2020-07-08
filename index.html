@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="UFT-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" href="Styles/styles.css"/>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -10,11 +10,11 @@
 
     <body>
       <header class="header">
-          <img class="logo" src="Images/logo.svg"></img>
+          <img class="logo" src="Images/logo.svg" alt="LogoAplicacion"/>
           <input class="menu-btn" type="checkbox" id="menu-btn"/>
           <label class="menu-icon" for="menu-btn">
             <i id="bars" class="fa fa-bars"></i>
-            <i id="cross"class="fas fa-times"></i>
+            <i id="cross" class="fas fa-times"></i>
           </label>
         <nav class="menu">
           <ul>
@@ -36,9 +36,11 @@
         </section>
       
 
-        <a name="lnkepisodies">&nbsp;</a>
+        <a id="lnkepisodies">&nbsp;</a>
         <section id="episodies">
-          <h2>Episodios</h2>
+          <div class="tittleEpisodes">
+            <h2>Episodios</h2>
+          </div>
             <div class="frames">
               <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/6eCHJ8yOYtksW8OT93Dbdu" allow="encrypted-media"></iframe>
               <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" allow="encrypted-media"></iframe>
@@ -47,53 +49,61 @@
             </div>
         </section>
 
-        <div>
-          <img class="img" src="Images/phone.png"></img> 
-        </div> 
-       <a name="lnkabout_us">&nbsp;</a>
+        
+      
        <section id="about_us">
-          <h2>De dónde venimos</h2>
-          <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. 
-           <br> <br> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+        <div>
+          <img class="img" src="Images/phone.png" alt="phone"/>
+        </div> 
+        <a id="lnkabout_us">&nbsp;</a>
+          <div class="information_aboutus">
+            <h2>De dónde venimos</h2>
+            <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. 
+             <br> <br> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+          </div>
        </section>
 
-       <a name="lnkguests">&nbsp;</a>
+       <a id="lnkguests">&nbsp;</a>
        <section id="guests">
-        <h2>Invitadas/os estelares</h2>
+         <div class="tittleGuests">
+          <h2>Invitadas/os estelares</h2>
+         </div>
           <div class="grid_images"> 
-            <img class="image" src="Images/grace-hopper.png" ></img>
-            <img class="image" src="Images/Katie-Bouman.png" ></img>
-            <img class="image" src="Images/Margaret_Hamilton.png" ></img>
-            <img class="image" src="Images/An E.R.A.Univac 1103 computer in the 1950s.png" ></img>
-            <img class="image" src="Images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" ></img>
-            <img class="image" src="Images/susan-kare.png" ></img>
+            <img class="image" src="Images/grace-hopper.png" alt="grace-hopper"/>
+            <img class="image" src="Images/Katie-Bouman.png" alt="Katie-Bouman"/>
+            <img class="image" src="Images/Margaret_Hamilton.png" alt="Margaret_Hamilton" />
+            <img class="image" src="Images/era.png" alt="computer"/>
+            <img class="image" src="Images/Computer_operators.png" alt="first"/>
+            <img class="image" src="Images/susan-kare.png" alt="susan-kare"/>
           </div> 
        </section>
 
-       <a name="lnkTopics">&nbsp;</a>
+       <a id="lnkTopics">&nbsp;</a>
        <section id="topics">
-        <h2>Algunos de nuestros temas</h2>
+         <div class="tittleTopics">
+          <h2>Algunos de nuestros temas</h2>
+         </div>
         <div class="topic_icons">
           <div class="icon">
-            <img src="Images/icon1.svg"></img>
+            <img src="Images/icon1.svg" alt="icon1"/>
             <h3>Trabajo Remoto</h3>  
           </div>
           <div class="icon">
-            <img src="Images/icon2.svg"></img>
+            <img src="Images/icon2.svg" alt="icon2"/>
             <h3>Repensando la programación</h3>   
           </div>
           <div class="icon">
-            <img src="Images/icon3.svg"></img>
+            <img src="Images/icon3.svg" alt="icon3"/>
             <h3>Bases del código</h3>  
           </div>
           <div class="icon">
-            <img src="Images/icon4.svg"></img>
+            <img src="Images/icon4.svg" alt="icon4"/>
             <h3>Seguridad informática</h3>    
           </div>
         </div> 
        </section> 
 
-       <a name="lnknews">&nbsp;</a>
+       <a id="lnknews">&nbsp;</a>
        <section id="news">
          <h3>¿Querés las últimas novedades?</h3>
          <button class="button">ESCUCHA LOS EPISODIOS</button>
