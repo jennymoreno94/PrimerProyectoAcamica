@@ -9,116 +9,49 @@
     </head>
 
     <body>
-      <header class="header">
-          <img class="logo" src="Images/logo.svg" alt="LogoAplicacion"/>
-          <input class="menu-btn" type="checkbox" id="menu-btn"/>
-          <label class="menu-icon" for="menu-btn">
-            <i id="bars" class="fa fa-bars"></i>
-            <i id="cross" class="fas fa-times"></i>
-          </label>
-        <nav class="menu">
-          <ul>
-              <li><a href="#lnkepisodies">EPISODIOS</a></li>
-              <li><a href="#lnkabout_us">NOSOTROS</a></li>
-              <li><a href="#lnkguests">ENTREVISTAS</a></li>
-              <li><a href="#lnkTopics">TÓPICOS</a></li>
-            </ul>
-        </nav>
-      </header>
-
-     
-      <main>
-        <section id="home">
-          <h1>Hello <span id="spanWorld">world</span> Pale blue dot<span id="dot">.</span></h1>
-          <!--<p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>-->
-          <p>El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
-          <button class="button">CONOCÉ MÁS</button>
-        </section>
-      
-
-        <a id="lnkepisodies">&nbsp;</a>
-        <section id="episodies">
-          <div class="tittleEpisodes">
-            <h2>Episodios</h2>
-          </div>
-            <div class="frames">
-              <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/6eCHJ8yOYtksW8OT93Dbdu" allow="encrypted-media"></iframe>
-              <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" allow="encrypted-media"></iframe>
-              <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" allow="encrypted-media"></iframe>
-              <iframe class="iframe" src="https://open.spotify.com/embed-podcast/episode/3BEGxvpxQz49uEfOx1MVkA" allow="encrypted-media"></iframe>
+      <header>
+        <img class="logo" src="Images/logo.svg" alt="LogoAplicacion"/>
+         <nav>
+            <div class="menu">
+              <input class="menu-btn" type="checkbox" id="menu-btn"/>
+              <label class="menu-icon" for="menu-btn">
+                <i id="bars" class="fa fa-bars"></i>
+                <i id="cross" class="fas fa-times"></i>
+              </label>
+                 <div class="menu-ul">
+                  <ul >
+                    <li><a href="#lnkepisodies">EPISODIOS</a></li>
+                    <li><a href="#lnkabout_us">NOSOTROS</a></li>
+                    <li><a href="#lnkguests" >ENTREVISTAS</a></li>
+                    <li><a href="#lnkTopics">TÓPICOS</a></li>
+                  </ul>
+                 </div>
+                 
             </div>
-        </section>
+         </nav>
+      </header> 
 
-        
-      
-       <section id="about_us">
-        <div>
-          <img class="img" src="Images/phone.png" alt="phone"/>
-        </div> 
-        <a id="lnkabout_us">&nbsp;</a>
-          <div class="information_aboutus">
-            <h2>De dónde venimos</h2>
-            <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. 
-             <br> <br> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
-          </div>
-       </section>
+      <!--<header>
+        <img src="images/logo.svg" alt="Logo" title="Logo">
+        <nav>
+            <div class="menu">
+                <input type="checkbox" id="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul>
+                    <li><a href="#episodios">EPISODIOS</a></li>
+                    <li><a href="#nosotros">NOSOTROS</a></li>
+                    <li><a href="#entrevistas">ENTREVISTAS</a></li>
+                    <li><a href="#topicos">TÓPICOS</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>-->
 
-       <a id="lnkguests">&nbsp;</a>
-       <section id="guests">
-         <div class="tittleGuests">
-          <h2>Invitadas/os estelares</h2>
-         </div>
-          <div class="grid_images"> 
-            <img class="image" src="Images/grace-hopper.png" alt="grace-hopper"/>
-            <img class="image" src="Images/Katie-Bouman.png" alt="Katie-Bouman"/>
-            <img class="image" src="Images/Margaret_Hamilton.png" alt="Margaret_Hamilton" />
-            <img class="image" src="Images/era.png" alt="computer"/>
-            <img class="image" src="Images/Computer_operators.png" alt="first"/>
-            <img class="image" src="Images/susan-kare.png" alt="susan-kare"/>
-          </div> 
-       </section>
 
-       <a id="lnkTopics">&nbsp;</a>
-       <section id="topics">
-         <div class="tittleTopics">
-          <h2>Algunos de nuestros temas</h2>
-         </div>
-        <div class="topic_icons">
-          <div class="icon">
-            <img src="Images/icon1.svg" alt="icon1"/>
-            <h3>Trabajo Remoto</h3>  
-          </div>
-          <div class="icon">
-            <img src="Images/icon2.svg" alt="icon2"/>
-            <h3>Repensando la programación</h3>   
-          </div>
-          <div class="icon">
-            <img src="Images/icon3.svg" alt="icon3"/>
-            <h3>Bases del código</h3>  
-          </div>
-          <div class="icon">
-            <img src="Images/icon4.svg" alt="icon4"/>
-            <h3>Seguridad informática</h3>    
-          </div>
-        </div> 
-       </section> 
-
-       <a id="lnknews">&nbsp;</a>
-       <section id="news">
-         <h3>¿Querés las últimas novedades?</h3>
-         <button class="button">ESCUCHA LOS EPISODIOS</button>
-       </section>
-        
-       <footer class="socialNetworks">
-          <p>© 2019— Hello blue pale dot</p>
-          <div class="social_icons">
-            <a href="https://open.spotify.com/user/12134467668?si=Pu_wbfTgTLyj0_R4o-F66Q" target="_blank"><i class="fab fa-spotify"></i></a>
-            <a href="https://www.instagram.com/jennymv94/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/jennymv94?s=08" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://www.facebook.com/JennyMorenoVallejo08/" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
-            <a href="https://web.telegram.org/#/login" target="_blank"><i class="fab fa-telegram" aria-hidden="true"></i></a>
-          </div>
-       </footer> 
+      <main>
+ 
       </main>
        
     </body>
