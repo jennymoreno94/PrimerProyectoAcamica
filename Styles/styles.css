@@ -29,7 +29,7 @@ header .menu-btn {
   display: none;
 }
 
-header nav .menu .menu-ul {
+header nav .menu ul {
   width: 100%;
   position: absolute;
   right: 0;
@@ -56,7 +56,7 @@ li a {
   text-decoration: line-through;
 }
 
-header nav .menu .menu-btn:checked ~ .menu-ul {
+header nav .menu .menu-btn:checked ~ ul {
   height: auto;
   transition: flex-basis 500ms ease-in-out;
 }
@@ -82,7 +82,7 @@ header nav .menu .menu-btn:checked ~ .menu-ul {
     display: none;
   }
 
-  header nav .menu .menu-ul {
+  header nav .menu ul {
     position: relative;
     overflow: hidden;
     background: unset;
