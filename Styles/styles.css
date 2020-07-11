@@ -10,7 +10,6 @@
 }
 
 /*GENERALES*/
-
 .container {
   width: 100%;
   height: auto;
@@ -27,7 +26,7 @@ p {
   line-height: 22px;
 }
 
-#home h1 {
+h1 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 2.25em;
   color: #060A24;
@@ -58,6 +57,16 @@ button:hover {
   background: #00F0B8; 
   background: -webkit-linear-gradient(to left, #0000FE, #00F0B8);
   background: linear-gradient(to left, #0000FE, #00F0B8); 
+}
+
+h2{
+  color: #000000;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 2.25em;
+  letter-spacing: 0;
+  line-height: 42px;
+  font-weight: 400;
+  font-size: 40px;
 }
 
 /*HEADER*/
@@ -130,14 +139,8 @@ header nav .menu .menu-btn:checked ~ ul {
   width: 100%;
   height: auto;
   border: #000000 1px solid;
-
 }
 
-#home .container {
-  width: 100%;
-  height: auto;
-  border: #000000 1px solid;
-}
 
 #home h1 {
   width: 80%;
@@ -169,7 +172,47 @@ header nav .menu .menu-btn:checked ~ ul {
   margin: 5% ;
 }
 
+/*EPISODIES*/
+#episodies {
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+ -webkit-transform: skewY(-6deg);
+ -ms-transform: skewY(-6deg);
+  transform: skewY(-6deg);
+  margin-top: 5%;
+}
 
+#episodies>* {
+  -webkit-transform: skewY(6deg);
+  -ms-transform: skewY(6deg);
+  transform: skewY(6deg);
+}
+
+#episodies .tittleEpisodes {
+  width: 100%;
+  border: #000000 1px solid;
+}
+
+
+#episodies h2 {
+  margin: 5%;
+  padding-top: 5%;
+  color: #FFFFFF;
+  border: #000000 1px solid;
+}
+
+.frames {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  justify-content: center;
+  margin: 10%;
+}
+
+.iframe {
+    width: 90%;
+    height: 232px;
+    margin: 4% 0% 0% 4%;
+    border: none;
+}
 
 
 /*MEDIAQUERIES*/
@@ -187,7 +230,6 @@ header nav .menu .menu-btn:checked ~ ul {
     width: 70%;
   }
 
-
   #home #pmobile {
     display: none;
   }
@@ -195,7 +237,6 @@ header nav .menu .menu-btn:checked ~ ul {
   #home #pweb {
      display: block;
   }
-  
   
   #home #dot {
     color:#0000EC;
@@ -205,11 +246,35 @@ header nav .menu .menu-btn:checked ~ ul {
     margin: 3% 0% 0% 10%;
     width: 30%;
   }
+
+   /*EPISODIES*/
+   #episodies h2 {
+    font-size: 3em;
+    margin: 0% 0% 0% 10%;
+    border:white 1px solid;
+  }
+
+  #episodies .container {
+    padding-top: 5%;
+  }
+
+  .frames {
+    display: grid;
+    grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+    justify-content: center;
+    margin: 0% 3% 10% 3%;
+  }
+
+  .iframe {
+    margin: 10% 0% 0% 4%;
+  }
+  
 }
 
 /*DESKTOP*/
 @media (min-width: 1220px) {
   
+  /*HEADER*/
   header nav .menu .menu-icon {
     display: none;
   }
@@ -217,6 +282,7 @@ header nav .menu .menu-btn:checked ~ ul {
   header nav .menu ul {
     position: relative;
     overflow: hidden;
+    align-items: flex-end;
     background: unset;
     height: unset;
     top: 0;
@@ -246,7 +312,7 @@ header nav .menu .menu-btn:checked ~ ul {
     width: 36px;
   }
   
-
+  /*HOME*/
   #home h1 {
     font-size: 4em;
     margin: 10% 0% 0% 15%;
@@ -275,5 +341,25 @@ header nav .menu .menu-btn:checked ~ ul {
     width: 20%;
   }
 
+  /*EPISODIES*/
+  #episodies h2 {
+    font-size: 3em;
+    margin: 0% 0% 0% 15%;
+    border:white 1px solid;
+  }
+  #episodies .container {
+    padding-top: 5%;
+  }
 
+ .frames {
+    display: grid;
+    grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+    justify-content: center;
+    margin: 0% 3% 10% 3%;
+  }
+
+  .iframe {
+    margin: 10% 0% 0% 4%;
+  }
+ 
 }
