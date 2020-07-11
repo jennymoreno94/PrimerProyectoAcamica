@@ -132,7 +132,6 @@ header nav .menu .menu-btn:checked ~ ul {
 }
 
 /*HOME*/
-
 #home  {
   display: flex;
   flex-direction: column;
@@ -217,6 +216,8 @@ header nav .menu .menu-btn:checked ~ ul {
 /*MEDIAQUERIES*/
 /*TABLET*/
 @media (min-width: 768px) {
+
+  /*HOME*/
   #home h1 {
     margin: 0% 0% 0% 10%;
     padding-top: 0%;
