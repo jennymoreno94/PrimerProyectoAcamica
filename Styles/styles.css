@@ -125,6 +125,11 @@ li a:active  {
   text-decoration: line-through;
 }
 
+li a:hover{
+  text-decoration: line-through;
+  color: #00F3BB ;
+}
+
 header nav .menu .menu-btn:checked ~ ul {
   height: auto;
   transition: flex-basis 500ms ease-in-out;
@@ -208,7 +213,6 @@ header nav .menu .menu-btn:checked ~ ul {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   justify-content: center;
-  /*margin: 10%;*/
   margin: 10% 10% 30% 10%
 }
 
@@ -548,11 +552,7 @@ header nav .menu .menu-btn:checked ~ ul {
     color: #060A24; 
   }
 
-  li a:hover{
-    text-decoration: line-through;
-    color: #00F3BB ;
-  }
-
+ 
   li a:active{
     text-decoration: line-through;
     color: rgba(6,10,36,0.56);
