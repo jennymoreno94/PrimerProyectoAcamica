@@ -461,6 +461,10 @@ header nav .menu .menu-btn:checked ~ ul {
   }
 
   /*GUESTS*/
+  #guests .container {
+    padding-top: 5%;
+  }
+
   #guests h2 {
     margin: 0% 0% 0% 10%;
     padding: 0% 0% 5% 0%;
@@ -472,6 +476,10 @@ header nav .menu .menu-btn:checked ~ ul {
   }
 
   /*TOPICS*/
+  #topics .container {
+    padding-top: 0%;
+  }
+
   #topics h2 {
     margin: 0% 0% 0% 10%;
     /*border: #000000 1px solid;*/
@@ -660,6 +668,10 @@ header nav .menu .menu-btn:checked ~ ul {
 
  
   /*GUESTS*/
+  #guests .container {
+    padding-top: 9%;
+  }
+
   #guests h2 {
     margin: 0% 0% 0% 15%;
     /*border: #000000 1px solid;*/
@@ -670,6 +682,10 @@ header nav .menu .menu-btn:checked ~ ul {
   }
 
   /*TOPICS*/
+  #topics .container {
+    padding-top: 9%;
+  }
+
   #topics h2 {
     margin: 0% 0% 0% 15%;
     /*border: #000000 1px solid;*/
