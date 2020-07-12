@@ -120,7 +120,7 @@ li a {
   text-decoration: none;
 }
 
- li a:active  {
+li a:active  {
   color: rgba(6, 10, 36, 0.56);
   text-decoration: line-through;
 }
@@ -148,7 +148,6 @@ header nav .menu .menu-btn:checked ~ ul {
   border: #000000 1px solid;
 }
 
-
 #home h1 {
   width: 80%;
   margin: 5%;
@@ -164,7 +163,6 @@ header nav .menu .menu-btn:checked ~ ul {
 #home #pweb {
   display: none;
 }
-
 
 #home #dot {
   color:#060A24;
@@ -299,7 +297,6 @@ header nav .menu .menu-btn:checked ~ ul {
   justify-content: space-around;
 }
 
-
 .icon {
   display: flex;
   flex-direction: column;
@@ -307,6 +304,35 @@ header nav .menu .menu-btn:checked ~ ul {
   margin: 3%;
 }
 
+/*NEWS*/
+#news .container {
+  padding-top: 20%;
+  border: #000000 1px solid;
+  margin: 0% 0% 20% 0%;
+}
+
+#news {
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+ -webkit-clip-path:  polygon(0 19%, 100% 0, 100% 99%, 0% 100%);
+ -ms-clip-path:  polygon(0 19%, 100% 0, 100% 99%, 0% 100%);
+  clip-path: polygon(0 19%, 100% 0, 100% 99%, 0% 100%);
+  border: #000000 1px solid;
+}
+
+#news h3 {
+  font-size: 2.25em;
+  line-height: 42px;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 3%;
+  border: #000000 1px solid;
+}
+
+#news .button{
+  width: 90%;
+  margin: 5%;
+}
 
 /*MEDIAQUERIES*/
 /*TABLET*/
@@ -429,6 +455,26 @@ header nav .menu .menu-btn:checked ~ ul {
     padding-top: 5%;
     border: #000000 1px solid;
   }
+
+  /*NEWS*/
+  #news .container {
+    margin: 0% 0% 10% 0%;
+    padding-top: 15%;
+  }
+  
+  #news h3 {
+    font-size: 2.25em;
+    line-height: 42px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    border: #000000 1px solid;
+  }
+  
+  #news .button{
+    width: 30%;
+    margin: 0% 33% 0% 33%;
+  }
   
 }
 
@@ -526,10 +572,7 @@ header nav .menu .menu-btn:checked ~ ul {
     margin: 10% 0% 0% 4%;
   }
 
-
-
 /*ABOUT AS*/
-
   #about_us .container {
     display: flex;
     flex-direction: row;
@@ -591,6 +634,29 @@ header nav .menu .menu-btn:checked ~ ul {
     margin:5%;
     padding-top: 5%;
     border: #000000 1px solid;
+  }
+
+  /*NEWS*/
+  #news .container {
+    padding-top: 10%;
+    border: #000000 1px solid;
+    margin: 0% 0% 10% 0%;
+  }
+
+  #news h3 {
+    font-size: 2.25em;
+    line-height: 42px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 3%;
+    border: #000000 1px solid;
+  }
+
+  #news .button{
+    width: 20%;
+    margin: 0% 40% 0% 40%;
+    align-items: center;
   }
 
 }
