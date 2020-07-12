@@ -68,6 +68,15 @@ h2{
   font-size: 40px;
 }
 
+h3 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.5em;
+  color: #060A24;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-align: center;
+}
+
 /*HEADER*/
 header {
   display: flex;
@@ -213,13 +222,6 @@ header nav .menu .menu-btn:checked ~ ul {
 }
 
 /*ABOUT AS*/
-
-.img {
-  width: 90%;
-  position: relative;
-  margin: -33% 0% 0% 5%;
-}
-
 #about_us .container  {
   display: flex;
   flex-direction: column;
@@ -240,9 +242,49 @@ header nav .menu .menu-btn:checked ~ ul {
   border: #000000 1px solid;
 }
 
+.img {
+  width: 90%;
+  position: relative;
+  margin: -33% 0% 0% 5%;
+}
+
+/*GUESTS*/
 
 
+/*TOPICS*/
 
+#topics .container  {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: #000000 1px solid;
+}
+
+#topics h2 {
+  margin: 5%;
+  padding-top: 5%;
+  border: #000000 1px solid;
+}
+
+#topics h3 {
+  margin: 3%;
+  padding-top: 3%;
+  border: #000000 1px solid;
+}
+
+#topics .topic_icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3%;
+}
 
 
 /*MEDIAQUERIES*/
@@ -381,6 +423,10 @@ header nav .menu .menu-btn:checked ~ ul {
     width: 36px;
   }
   
+  h2 {
+    font-size: 3em;
+  }
+
   /*HOME*/
   #home h1 {
     font-size: 4em;
@@ -412,7 +458,6 @@ header nav .menu .menu-btn:checked ~ ul {
 
   /*EPISODIES*/
   #episodies h2 {
-    font-size: 3em;
     margin: 0% 0% 0% 15%;
     border:white 1px solid;
   }
@@ -452,7 +497,6 @@ header nav .menu .menu-btn:checked ~ ul {
 
   #about_us h2 {
     margin: 7%;
-    font-size: 3em;
     border: #000000 1px solid;
   }
 
@@ -467,6 +511,25 @@ header nav .menu .menu-btn:checked ~ ul {
   #information_about_us{
     margin: 0% 0% 0% 10%;
     width: 100%;
+    border: #000000 1px solid;
+  }
+
+  /*TOPICS*/
+  #topics h2 {
+    margin: 0% 0% 0% 15%;
+    border: #000000 1px solid;
+  }
+
+  #topics .topic_icons {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 16% 0% 16%;
+    border: #000000 1px solid;
+  }
+
+  #topics h3 {
+    margin:5%;
+    padding-top: 5%;
     border: #000000 1px solid;
   }
 
