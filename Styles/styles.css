@@ -44,6 +44,7 @@ h1 {
   letter-spacing: 0;
   text-align: center;
   border: none;
+  padding: 5%;
 }
 
 .button a {
@@ -393,6 +394,7 @@ header nav .menu .menu-btn:checked ~ ul {
   }
   
   #home .button {
+    padding: 2%;
     margin: 3% 0% 0% 10%;
     width: 30%;
   }
@@ -500,7 +502,8 @@ header nav .menu .menu-btn:checked ~ ul {
   }
   
   #news .button{
-    width: 30%;
+    padding: 2%;
+    width: 40%;
     margin: 0% 33% 0% 33%;
   }
 
@@ -591,6 +594,7 @@ header nav .menu .menu-btn:checked ~ ul {
     color:#0000EC;
   }
   #home .button {
+    padding: 1%;
     margin: 3% 0% 0% 15%;
     width: 20%;
   }
@@ -697,7 +701,8 @@ header nav .menu .menu-btn:checked ~ ul {
   }
 
   #news .button{
-    width: 20%;
+    padding: 1%;
+    width: 30%;
     margin: 0% 40% 0% 40%;
     align-items: center;
   }
