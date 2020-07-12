@@ -86,8 +86,8 @@ header {
   width: 100%;
   padding: 10px 5%;
   border: #000000 1px solid;
-  /*background-color: #FFFFFF;
-  z-index: 1;*/
+  background-color: #FFFFFF;
+  z-index: 1;
 }
 
 header .logo {
@@ -334,6 +334,31 @@ header nav .menu .menu-btn:checked ~ ul {
   margin: 5%;
 }
 
+/*FOOTER*/
+.socialNetworks .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialNetworks p {
+  font-size: 0.875em;
+  text-align: center;
+  font-weight: 400;
+}
+
+.socialNetworks .social_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6% 13% 0% 13%;
+  width: 100%;
+}
+
+.socialNetworks i {
+  color: #000000;
+}
+
 /*MEDIAQUERIES*/
 /*TABLET*/
 @media (min-width: 768px) {
@@ -391,7 +416,6 @@ header nav .menu .menu-btn:checked ~ ul {
   }
 
   /*ABOUT AS*/
-
   #about_us .container {
     display: flex;
     flex-direction: row;
@@ -474,6 +498,25 @@ header nav .menu .menu-btn:checked ~ ul {
   #news .button{
     width: 30%;
     margin: 0% 33% 0% 33%;
+  }
+
+  /*FOOTER*/
+  .socialNetworks .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top:3%;
+    border: #000000 1px solid;
+  }
+
+  .socialNetworks p {
+    margin: 0% 4% 0% 4%;
+  }
+
+  .socialNetworks .social_icons {
+    padding: 0% 7% 0% 7%;
+    width: 40%;
+    border: #000000 1px solid;
   }
   
 }
@@ -658,6 +701,25 @@ header nav .menu .menu-btn:checked ~ ul {
     margin: 0% 40% 0% 40%;
     align-items: center;
   }
+
+/*FOOTER*/
+.socialNetworks .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top:3%;
+  border: #000000 1px solid;
+}
+
+.socialNetworks p {
+  margin: 0% 5% 0% 5%;
+}
+
+.socialNetworks .social_icons {
+  padding: 0% 7% 0% 7%;
+  width: 40%;
+  border: #000000 1px solid;
+}
 
 }
 
