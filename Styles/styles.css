@@ -249,10 +249,31 @@ header nav .menu .menu-btn:checked ~ ul {
 }
 
 /*GUESTS*/
+#guests .container  {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: #000000 1px solid;
+}
+
+#guests h2 {
+  margin: 5%;
+  padding-top: 5%;
+  border: #000000 1px solid;
+}
+
+.grid_images {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.image {
+  width: 100%;
+  height: auto
+}
 
 
 /*TOPICS*/
-
 #topics .container  {
   display: flex;
   flex-direction: column;
@@ -377,6 +398,35 @@ header nav .menu .menu-btn:checked ~ ul {
   #information_about_us{
     margin: 0% 0% 0% 5%;
     width: 100%;
+    border: #000000 1px solid;
+  }
+
+  /*GUESTS*/
+  #guests h2 {
+    margin: 0% 0% 0% 10%;
+     border: #000000 1px solid;
+  }
+  
+  .grid_images {
+    grid-template: repeat(2, 1fr) /repeat(3, 1fr);
+  }
+
+  /*TOPICS*/
+  #topics h2 {
+    margin: 0% 0% 0% 10%;
+    border: #000000 1px solid;
+  }
+
+  #topics .topic_icons {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 10% 0% 10%;
+    border: #000000 1px solid;
+  }
+
+  #topics h3 {
+    margin:5%;
+    padding-top: 5%;
     border: #000000 1px solid;
   }
   
@@ -512,6 +562,16 @@ header nav .menu .menu-btn:checked ~ ul {
     margin: 0% 0% 0% 10%;
     width: 100%;
     border: #000000 1px solid;
+  }
+
+  /*GUESTS*/
+  #guests h2 {
+    margin: 0% 0% 0% 15%;
+    border: #000000 1px solid;
+  }
+
+  .grid_images {
+    grid-template: repeat(2, 1fr) /repeat(3, 1fr);
   }
 
   /*TOPICS*/
