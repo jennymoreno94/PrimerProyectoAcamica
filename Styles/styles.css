@@ -37,6 +37,10 @@ h1 {
 }
 
 .button {
+  display: flex;
+}
+
+.button .btn {
   height:3em;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 500;
@@ -46,14 +50,14 @@ h1 {
   text-align: center;
   border: none;
   padding: 5%;
-}
-
-.button a {
   text-decoration: none;
   color: #060A24;
+  flex-grow: 10;
 }
 
-button:hover {
+
+
+.button .btn:hover {
   color :#FFFFFF;
   background: #00F0B8; 
   background: -webkit-linear-gradient(to left, #0000FE, #00F0B8);
@@ -179,9 +183,9 @@ header nav .menu .menu-btn:checked ~ ul {
   text-decoration: line-through;
 }
 
-#home .button{
+#home .btn{
   width: 90%;
-  margin: 5% ;
+  margin: 5%;
 }
 
 /*EPISODIES*/
@@ -337,7 +341,7 @@ header nav .menu .menu-btn:checked ~ ul {
   /*border: #000000 1px solid;*/
 }
 
-#news .button{
+#news .btn{
   width: 90%;
   margin: 5%;
 }
@@ -396,11 +400,18 @@ header nav .menu .menu-btn:checked ~ ul {
     color:#0000EC;
   }
   
-  #home .button {
+  #home .btn {
     padding: 2%;
-    margin: 3% 0% 0% 10%;
+    margin: 3% 65% 0% 10%;
     width: 30%;
   }
+
+  /*#home .btn{
+    padding: 1%;
+    width: 30%;
+    margin: 3% 65% 0% 15%
+  }*/
+
 
    /*EPISODIES*/
    #episodies h2 {
@@ -513,7 +524,7 @@ header nav .menu .menu-btn:checked ~ ul {
     /*border: #000000 1px solid;*/
   }
   
-  #news .button{
+  #news .btn{
     padding: 2%;
     width: 40%;
     margin: 0% 33% 0% 33%;
@@ -605,11 +616,23 @@ header nav .menu .menu-btn:checked ~ ul {
   #home #dot {
     color:#0000EC;
   }
-  #home .button {
+ /* #home .btn {
     padding: 1%;
     margin: 3% 0% 0% 15%;
-    width: 20%;
+    width: 10%;
+  }*/
+
+  #home .btn{
+    padding: 1%;
+    width: 30%;
+    margin: 3% 65% 0% 15%
   }
+
+  /*#home .btn{
+    margin: 3% 0% 0% 15%;
+    width: 30%;
+    margin: 5% ;
+  }*/
 
   /*EPISODIES*/
   #episodies h2 {
@@ -721,7 +744,7 @@ header nav .menu .menu-btn:checked ~ ul {
     /*border: #000000 1px solid;*/
   }
 
-  #news .button{
+  #news .btn{
     padding: 1%;
     width: 30%;
     margin: 0% 35% 0% 35%;
